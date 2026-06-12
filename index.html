@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Element Poker is an offline fantasy card strategy game built around five elemental forces.">
+  <title>Element Poker</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --night: #07101f;
+      --panel: #101f38;
+      --gold: #f2c66d;
+      --blue: #73b9ff;
+      --text: #f7f3e8;
+      --muted: #b9c5d8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 20% 10%, #173e68 0, transparent 35%),
+        radial-gradient(circle at 85% 25%, #6c2918 0, transparent 30%),
+        linear-gradient(145deg, var(--night), #090713);
+      line-height: 1.65;
+    }
+    .wrap { width: min(1040px, calc(100% - 36px)); margin: 0 auto; }
+    header { padding: 96px 0 62px; text-align: center; }
+    .eyebrow {
+      color: var(--blue);
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 12px 0; color: var(--gold); font-size: clamp(3rem, 9vw, 6.7rem); line-height: .98; }
+    .lead { max-width: 720px; margin: 22px auto 0; color: var(--muted); font-size: 1.16rem; }
+    .cta {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 22px;
+      border: 1px solid var(--gold);
+      border-radius: 999px;
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    section { padding: 28px 0 54px; }
+    h2 { margin: 0 0 18px; color: var(--gold); font-size: 2rem; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .card {
+      padding: 24px;
+      border: 1px solid rgba(242, 198, 109, .24);
+      border-radius: 18px;
+      background: rgba(16, 31, 56, .78);
+      box-shadow: 0 18px 50px rgba(0, 0, 0, .22);
+    }
+    .card h3 { margin-top: 0; color: var(--blue); }
+    .card p, section > p { color: var(--muted); }
+    footer { margin-top: 40px; padding: 34px 0; border-top: 1px solid rgba(255,255,255,.12); color: var(--muted); }
+    footer a { color: var(--gold); }
+    @media (max-width: 760px) {
+      header { padding-top: 68px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="eyebrow">Fantasy Card Strategy</div>
+    <h1>Element Poker</h1>
+    <p class="lead">Master Metal, Wood, Water, Fire, and Earth in a tactical single-player card adventure filled with heroes, skill cards, and powerful bosses.</p>
+    <a class="cta" href="privacy.html">Read the Privacy Policy</a>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>Win With Knowledge</h2>
+      <p>Every duel combines elemental advantage, card rank, health, shields, and hand management. Choose one card in secret, reveal it with your opponent, and turn the five-element cycle into victory.</p>
+    </section>
+
+    <section class="grid" aria-label="Game features">
+      <article class="card">
+        <h3>Three Heroes</h3>
+        <p>Lead the durable Warrior, the focused Ranger, or the flexible Mage. Each hero changes how you draw, defend, and plan your winning rounds.</p>
+      </article>
+      <article class="card">
+        <h3>Fifty Levels</h3>
+        <p>Travel from the Whispering Forest to the Eternal Citadel, earn stars, unlock new challenges, and confront an elemental boss every ten levels.</p>
+      </article>
+      <article class="card">
+        <h3>Offline Adventure</h3>
+        <p>Core gameplay works without a network connection. Progress, hero selection, music, and vibration preferences are stored locally on your device.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Build Your Tactics</h2>
+      <p>Use Shield, Heal, Draw, and Damage skill cards at the right moment. Preserve valuable cards between rounds, adapt to changing hand limits, and learn each boss's special power.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Element Poker</strong><br>
+      Support: <a href="mailto:hengbozail@163.com">hengbozail@163.com</a><br>
+      Copyright © 2026 Element Poker. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
